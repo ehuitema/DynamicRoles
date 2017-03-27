@@ -3,7 +3,7 @@
 The DynamicRoles module adds user roles at runtime to a user that logs in. Useful to implement dynamic access to modules e.g.
  
 ### Typical usage scenario
-This module provides the solution in case when user roles must be determined at runtime. E.g. to allow additional functionality or module access which needs to be configured at runtime. Very useful in a multitenant, module based solution where module access can be switched on and off (e.g. based on a license model)
+This module provides the solution in case user roles must be determined at runtime. E.g. to allow additional functionality or module access which needs to be configured at runtime. Very useful in a multitenant, module based solution where module access can be switched on and off (e.g. based on a license model)
  
 ### Features and limitations
 * This module is an extension of [LicensePoolManager](https://github.com/ehuitema/LicensePoolManager) and can only be used in combination with this LicensePoolManager module.
@@ -18,7 +18,7 @@ This module provides the solution in case when user roles must be determined at 
 * Add the [LicensePoolManager](https://github.com/ehuitema/LicensePoolManager) to your project, prior to this one
 
 ### Installation steps
-* Import the module **LicensePoolManager** in your project
+* Import the module **[LicensePoolManager](https://github.com/ehuitema/LicensePoolManager)** in your project
 * Import the module **DynamicRoles** in your project
  
 # Getting Started
